@@ -19,7 +19,7 @@ main() {
   personasFinal.add('Maria');
   // personasConst.add('Maria');
 
-// Nos e puede apuntar a un nuevo espacio en memoria
+// Nos se puede apuntar a un nuevo espacio en memoria
   //  personasFinal = [];
 
   // print(personasConst);
