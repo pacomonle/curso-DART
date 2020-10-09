@@ -21,14 +21,14 @@ main() {
       onDone: () => print('Misión completa Stream 2!'),
       cancelOnError: false);
 
-  // añadir informacion al streamController
+  // añadir informacion al streamController( .sink.add() o .sink.addError())
   streamController.sink.add('Apollo 11');
   streamController.sink.add('Apollo 12');
   streamController.sink.add('Apollo 13');
   streamController.sink.addError('Houston, Tenemos un problema!');
   streamController.sink.add('Apollo 14');
   streamController.sink.add('Apollo 15');
-// cerrar la informacion (unsubscribe)
+// cerrar la informacion (similar unsubscribe)
   streamController.sink.close();
 
   print('Fin del main');

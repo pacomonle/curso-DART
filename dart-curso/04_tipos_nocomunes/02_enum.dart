@@ -12,9 +12,9 @@ main() {
     case Audio.alto:
       print('Volumen alto');
       break;
-    default:
+    /*  default:
       print('Volumen sin especificar');
-      break;
+      break; */
   }
 }
 

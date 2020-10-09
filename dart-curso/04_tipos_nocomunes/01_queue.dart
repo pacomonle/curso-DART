@@ -13,4 +13,5 @@ main() {
   while (i.moveNext()) {
     print(i.current);
   }
+  // para hacer esto tambien se usa el ciclo For
 }

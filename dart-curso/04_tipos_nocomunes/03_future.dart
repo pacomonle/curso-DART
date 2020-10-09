@@ -11,3 +11,4 @@ main() {
 }
 
 // el Futtures es similara al Promise de jasvascript
+// Future.delayed(Duration(seconds: 3), (){}) como un timeout de javscript

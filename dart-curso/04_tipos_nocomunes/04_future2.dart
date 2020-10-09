@@ -7,6 +7,7 @@ main() {
   // Windows
   print(Directory.current.path + '\\assets\\personas.txt');
   File file = new File(Directory.current.path + '\\assets\\personas.txt');
+  print(file);
 
   // asincrono
   Future<String> f = file.readAsString();
