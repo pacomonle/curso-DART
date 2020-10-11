@@ -1,7 +1,7 @@
 // patron singleton
 
 class MiServicio {
-// propiedad privada singleton
+// propiedad privada singleton, static para crear siempre el mismo espacio en memoria
   static final MiServicio _singleton = new MiServicio._internal();
 // constructor factory
   factory MiServicio() {
