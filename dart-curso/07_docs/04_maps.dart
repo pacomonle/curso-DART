@@ -10,9 +10,9 @@ main(List<String> args) {
   print('Persona: $persona');
   print('Length: ${persona.length}');
   // keys
-  print('keys: ${persona.keys}');
+  print('keys: ${persona.keys.toList()}');
   // values
-  print('values: ${persona.values}');
+  print('values: ${persona.values.toSet()}');
   // añadir elementos al map - concatenar mapas
   persona.addAll(direccion);
   print('AddAll: $persona');
